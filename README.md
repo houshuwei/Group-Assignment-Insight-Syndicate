@@ -1,5 +1,13 @@
 # Credit Card Fraud Detection
 
+CDS524 Group Assignment  (Team Formation)
+Zhenzhen Jia
+Zhongxi Zhu
+Xinzhe ZHENG
+Shuwei Hou
+Zirui Liu
+Wenxuan Wang
+
 ## Problem Statement
 Given a historical set of labeled credit card transactions, the objective is to build a classification model that can identify fraudulent transactions as accurately as possible while keeping false positives under control. This is a binary classification problem with highly imbalanced data.
 
