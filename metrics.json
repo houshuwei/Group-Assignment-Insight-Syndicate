@@ -1,0 +1,38 @@
+{
+  "cross_validation": {
+    "LogisticRegression": {
+      "cv_auprc_mean": 0.992,
+      "cv_auprc_std": 0.0002,
+      "cv_roc_auc_mean": 0.9909,
+      "cv_roc_auc_std": 0.0002
+    },
+    "RandomForest": {
+      "cv_auprc_mean": 1.0,
+      "cv_auprc_std": 0.0,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    }
+  },
+  "test_set_evaluation": {
+    "LogisticRegression": {
+      "accuracy": 0.9737,
+      "precision": 0.0531,
+      "recall": 0.8737,
+      "f1_score": 0.1002,
+      "roc_auc": 0.9619,
+      "auprc": 0.6768
+    },
+    "RandomForest": {
+      "accuracy": 0.9995,
+      "precision": 0.9114,
+      "recall": 0.7579,
+      "f1_score": 0.8276,
+      "roc_auc": 0.9609,
+      "auprc": 0.8123
+    }
+  },
+  "random_state": 42,
+  "train_size": 226980,
+  "test_size": 56746,
+  "smote_train_size": 453204
+}
